@@ -6,9 +6,10 @@
 }
 .header{
     height: 10vh;
-    width: 99%;
+    width: 90%;
     margin: auto;
     display: flex;
+    align-items: center;
 }
 .head1,.head2,.nav-links,.head3{
     display: flex;
@@ -20,7 +21,33 @@
     flex: 2;
     font-weight: 400;
 }
+.nav-links{
+    list-style: none;
+    margin: auto;
+    align-items: space-around;
+}
+.nav-link{
+    padding: 5px 35px 5px 35px;
+    font-size: 20px;
+    color: #6a6a8d;
+    text-decoration: none;
+}
 .head3{
+    flex: 1;
+    justify-content: flex-end;
+}
+.mid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left{
+    flex: 1;
+}
+.left img{
+    width: 80vh;
+}
+.right{
     flex: 1;
 }
 
